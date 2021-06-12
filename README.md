@@ -6,13 +6,7 @@
 
 ### 1. Library - React 16
 
-### 2. Bundling - Webpack
 
-### 3. Styling - Styled components or Simple CSS
-
-### 4. Routing - React router
-
-### 5. PWA configuration - Workbox
 
 # Coding guidelines
 
