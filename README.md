@@ -1,7 +1,5 @@
 # react-redux-appointment-dashboard-master
 
-# redux-basics-maximilian
-
 ## Technology stack : 
 
 ### 1. Library - React 16
