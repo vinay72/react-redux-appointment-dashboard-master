@@ -295,69 +295,7 @@ export default App;
 
 ---
 
-### 19. Follow the camel casing convention in directory and file name
 
-```sh
-├── app
-│   ├──MyAccount (Directory name)
-    │   ├── Login (Directory name)
-    │   │   ├── index.js - (Higher Order Component)
-    │   │   ├── style.js - (Styled components)
-    │   │   ├── Actions.js
-    │   │   ├── ActionsTypes.js
-    │   │   ├── ActionsCreators.js
-    │   │   └── Reducer.js
-    |
-    │   ├── ForgotPassword (Directory name)
-    │   │   ├── index.js - (Higher Order Component)
-    │   │   ├── style.js - (Styled components)
-    │   │   ├── Actions.js
-    │   │   ├── ActionsTypes.js
-    │   │   ├── ActionsCreators.js
-    │   │   └── Reducer.js
-
-│   ├──Offers (Directory name)
-    │   ├── CreateOffer (Directory name)
-    │   │   ├── index.js - (Higher Order Component)
-    │   │   ├── style.js - (Styled components)
-    │   │   ├── Card.js
-    │   │   ├── Actions.js
-    │   │   ├── ActionsTypes.js
-    │   │   ├── ActionsCreators.js
-    │   │   ├── Reducer.js
-    |   |
-    │   ├── ViewOffer (Directory name)
-    │   │   ├── index.js - (Higher Order Component)
-    │   │   ├── style.js - (Styled components)
-    │   │   ├── Card.js
-    │   │   ├── Actions.js
-    │   │   ├── ActionsTypes.js
-    │   │   ├── ActionsCreators.js
-    │   │   ├── Reducer.js
-```
-
----
-
-### 20. For those who are using SSH key for Gitlab
-
-You will need to add a new file `~/.ssh/config` and put the following content in that file:
-
-`Host gitlab.com`
-
-`Hostname altssh.gitlab.com`
-
-`User git`
-
-`Port 443`
-
-`PreferredAuthentications publickey`
-`IdentityFile ~/.ssh/id_rsa.pub`
-
-This will remove the timeout error when using SSH key. Further if you want to read check the following link.
-
-https://about.gitlab.com/blog/2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/
-
----
 
 ### 21. Setup extensions for VSCode
 
